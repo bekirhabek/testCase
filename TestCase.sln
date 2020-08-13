@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{C374F9B0-F74D-4005-B1B2-C887ED3156B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Consumer", "Consumer", "{71F09DDC-E14C-4EA2-9468-CC06FA4A4418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCase.DistanceCalculation.Consumer", "Consumer\TestCase.DistanceCalculation.Consumer\TestCase.DistanceCalculation.Consumer.csproj", "{663ED995-6DF6-4438-AE03-1EF655D37622}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E11BE2EE-2AAA-435E-9972-DB02199CFA62}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCase.Location.Api", "Api\TestCase.Location.Api\TestCase.Location.Api.csproj", "{C213CBA3-9245-49D6-9A77-34DB4F73E4AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{663ED995-6DF6-4438-AE03-1EF655D37622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663ED995-6DF6-4438-AE03-1EF655D37622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663ED995-6DF6-4438-AE03-1EF655D37622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663ED995-6DF6-4438-AE03-1EF655D37622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C213CBA3-9245-49D6-9A77-34DB4F73E4AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C213CBA3-9245-49D6-9A77-34DB4F73E4AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C213CBA3-9245-49D6-9A77-34DB4F73E4AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C213CBA3-9245-49D6-9A77-34DB4F73E4AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{663ED995-6DF6-4438-AE03-1EF655D37622} = {71F09DDC-E14C-4EA2-9468-CC06FA4A4418}
+		{C213CBA3-9245-49D6-9A77-34DB4F73E4AB} = {C374F9B0-F74D-4005-B1B2-C887ED3156B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD6DDCBD-8FD4-4DB8-BA4D-3E2D6902146B}
+	EndGlobalSection
+EndGlobal
